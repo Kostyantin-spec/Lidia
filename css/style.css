@@ -27,10 +27,45 @@ body {
 .page {
 }
 .page__hero {
+  margin-bottom: 170px;
 }
 .page__features {
+  margin-bottom: 200px;
 }
 .page__services {
+  margin-bottom: 200px;
+}
+@media (max-width: 1200px) {
+  .page__hero {
+    margin-bottom: 100px;
+  }
+  .page__services,
+  .page__features {
+    margin-bottom: 200px;
+  }
+}
+@media (max-width: 991.98px) {
+  .page__hero {
+    margin-bottom: 60px;
+  }
+  .page__services,
+  .page__features {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 767.98px) {
+  .page__hero {
+    margin-bottom: 40px;
+  }
+  .page__services,
+  .page__features {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 479.98px) {
+  .page__hero {
+    margin-bottom: 40px;
+  }
 }
 
 /* Componets */
@@ -337,23 +372,8 @@ body {
 /* Features */
 
 .features {
-  padding-bottom: 200px;
 }
-@media (max-width: 1200px) {
-  .features {
-    margin-bottom: 100px;
-  }
-}
-@media (max-width: 991.98px) {
-  .features {
-    margin-bottom: 60px;
-  }
-}
-@media (max-width: 767.98px) {
-  .features {
-    margin-bottom: 40px;
-  }
-}
+
 .features__container {
 }
 .features__header-block {
@@ -474,7 +494,7 @@ body {
 }
 @media (min-width: 767.98px) {
   .services__body {
-    max-width: 420px;
+    /* max-width: 420px; */
   }
   .services__item {
     align-items: flex-start;
