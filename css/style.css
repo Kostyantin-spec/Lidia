@@ -32,7 +32,8 @@ body {
 .page__features {
   margin-bottom: 200px;
 }
-.page__services {
+.page__services,
+.page__reviews {
   margin-bottom: 200px;
 }
 @media (max-width: 1200px) {
@@ -40,7 +41,8 @@ body {
     margin-bottom: 100px;
   }
   .page__services,
-  .page__features {
+  .page__features,
+  .page__reviews {
     margin-bottom: 200px;
   }
 }
@@ -49,7 +51,8 @@ body {
     margin-bottom: 60px;
   }
   .page__services,
-  .page__features {
+  .page__features,
+  .page__reviews {
     margin-bottom: 60px;
   }
 }
@@ -58,7 +61,8 @@ body {
     margin-bottom: 40px;
   }
   .page__services,
-  .page__features {
+  .page__features,
+  .page__reviews {
     margin-bottom: 40px;
   }
 }
@@ -522,4 +526,32 @@ body {
   .services__title:not(:last-child) {
     margin-bottom: 28px;
   }
+}
+
+/* Reviews */
+
+.reviews {
+}
+.reviews__container {
+}
+.reviews__header-block {
+}
+
+.reviews__body {
+}
+.reviews__items {
+}
+.reviews__item {
+}
+.reviews__link-avatar {
+}
+.reviews__avatar {
+}
+.reviews__text {
+}
+.reviews__taitel {
+}
+.reviews__link-title {
+}
+.reviews__position {
 }
